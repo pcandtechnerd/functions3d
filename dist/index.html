@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Function 3D Prints</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/images/favicon/site.webmanifest">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #ffe9d6, #fffaf3);
+      color: #222;
+      text-align: center;
+      margin: 0;
+      padding: 2rem;
+    }
+
+    .container {
+      background: linear-gradient(to bottom right, #fff4e6, #ffe0c1);
+      padding: 2rem;
+      border-radius: 20px;
+      max-width: 700px;
+      margin: auto;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+    }
+
+    .logo-box {
+      background: white;
+      padding: 1rem;
+      border-radius: 15px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      display: inline-block;
+      margin-bottom: 2rem;
+      opacity: 0;
+      transform: translateY(40px);
+      animation: fadeInUp 1s ease-out forwards;
+    }
+
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    img.logo {
+      max-width: 180px;
+      height: auto;
+      transition: transform 0.3s ease;
+    }
+
+    img.logo:hover {
+      transform: scale(1.05);
+    }
+
+    h1 {
+      color: #d35400;
+      margin-bottom: 1rem;
+    }
+
+    .info {
+      max-width: 600px;
+      margin: auto;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      margin: 1rem 0.5rem;
+      background-color: #e67e22;
+      color: white;
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: bold;
+      transition: all 0.3s ease-in-out;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .button:hover {
+      background-color: #cf711f;
+      transform: scale(1.05);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    footer {
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #555;
+    }
+
+    footer .button {
+      font-size: 0.85rem;
+      padding: 0.5rem 1.25rem;
+      margin: 0.25rem;
+    }
+
+    .hosted-by {
+      margin-top: 1rem;
+      color: #888;
+    }
+
+    .hosted-by a {
+      color: #e67e22;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hosted-by a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="logo-box">
+    <a href="https://www.iconindustries.co.uk/" target="_blank">
+      <img src="/images/functions.png" alt="Function 3D Logo" class="logo" />
+    </a>
+  </div>
+
+  <div class="container">
+    <div class="info">
+      <h1>Custom 3D Printing Services</h1>
+      <p>Welcome to <strong>Function 3D Prints</strong> – your destination for high-quality custom 3D printing.</p>
+      <p>We offer personalized prints, parts, and prototypes, made to order and shipped with care.</p>
+      <p>Enjoy <strong>5% off</strong> your order using our exclusive coupon:</p>
+
+      <a class="button" href="https://function3dstore.etsy.com/?coupon=WEBSITE" target="_blank">Visit Our Etsy Shop</a>
+      <br>
+      <a class="button" href="mailto:function3dprints@gmail.com">Contact Us</a>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Function 3D Prints. All rights reserved.<br><br>
+    <a class="button" href="https://www.iconindustries.co.uk/" target="_blank">Icon Industries</a>
+    <a class="button" href="https://www.tanda-3dprinting.co.uk/" target="_blank">UK Prints: Tanda 3D Printing</a>
+    <div class="hosted-by">
+      Hosted by <a href="https://www.iconindustries.co.uk/" target="_blank">Icon Industries</a>
+    </div>
+  </footer>
+
+</body>
+</html>
